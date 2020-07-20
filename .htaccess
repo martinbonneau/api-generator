@@ -1,0 +1,6 @@
+# these 3 lines allow to target /api/object and no /api/object.PHP
+# in addition, they allow to transform /api/object/x to /api/object?id=x
+
+RewriteEngine On # Activer le module Rewrite
+RewriteRule ^api\/(\w+)/?$ api/$1.php [NC,L]
+RewriteRule ^api\/(\w+)\/(\d+)$ api/$1.php?id=$2

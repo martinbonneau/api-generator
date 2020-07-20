@@ -1,0 +1,16 @@
+1xx     ===     Bad Request
+101     ===     The request URL contains (or not) an object ID for a unsupported method
+102     ===     Can't create object. The post() method return false
+103     ===     Missing attributs
+104     ===     Invalid token or malformed json format
+105     ===     Refresh token not found in getted json
+
+2xx     ===     Database error
+201     ===     Can't delete item. Check in /api/objcts/class.php#delete()
+202     ===     Can't update item. Check in /api/objcts/class.php#update()
+203     ===     Can't create refresh token. See in validate_token.php
+204     ===     Can't check for existing refresh token. See in validate_token.php
+205     ===     The user has a more or less 0..1 RT. See in validate_token.php
+206     ===     Refresh Token login is requested but user don't have RT. See in validate_token.php
+207     ===     Error when retrieve RT from Database. See in validate_token.php
+208     ===     Expired RT

@@ -1,0 +1,32 @@
+
+
+1.....................................................
+
+L'utilisateur s'authentifie.
+Son JWT expire.
+Il fait une demande via le RT
+L'utilsateur est à nouveau authentifié
+
+
+2.....................................................
+
+L'utilisateur s'authentifie.
+Son JWT expire.
+Sont RT expire.
+Il fait une demande via le RT
+Impossible de se reconncter
+
+
+3.....................................................
+
+L'utilisateur s'authentifie.
+Son RT expire
+Il tente de se reconnecter via RT
+De nouveaux tokens sont générés
+
+
+4.....................................................
+
+L'utilisateur s'authentifie
+Il tente de se reconnecter via RT
+De nouveaux tokens sont générés
